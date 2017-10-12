@@ -1,0 +1,595 @@
+/*头部*/
+.header-wrapper{
+    position: relative;
+    height: auto;
+    border-bottom: 1px solid #f1f1f1;
+}
+.nav{
+    padding-top: 30px;
+    height: 66px;
+}
+.nav li{
+    float: left;
+    width: 120px;
+    text-align: center;
+    line-height: 66px;
+}
+.nav li:nth-child(4){
+    margin-right: 238px;
+}
+.nav li a{
+    display: inline-block;
+    color: #000;
+    width: 100%;
+    height: 100%;
+}
+.nav li.active{
+    background: #fafafa;
+    border-top: 2px solid #5abef0;
+}
+.nav li.active a{
+    color: #5abef0;
+}
+.logo{
+    position: absolute;
+    width: 238px;
+    height: 150px;
+    top: 0;
+    left: 50%;
+    margin-left: -119px;
+    z-index: 5555;
+}   /*头部结束*/
+/*banner*/
+.banner-wrapper{
+    position: relative;
+    margin-top: 20px;
+    height: 800px;
+}
+.banner-wrapper ul{
+    width: 100%;
+    height:100%;
+}
+.banner-wrapper ul li{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+.banner-wrapper ul li:first-child{
+    display: block;
+}
+.banner-wrapper ol{
+    position: absolute;
+    width: 160px;
+    height: 30px;
+    left: 50%;
+    margin-left: -80px;
+    bottom: 50px;
+    z-index: 5;
+}
+.banner-wrapper ol li{
+    float: left;
+    margin: 0 25px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: grey;
+}
+.banner-wrapper ol li.active{
+    background: blue;
+}
+/*banner结束*/
+/*index内容*/
+.index-content{
+    height: 130px;
+    overflow: hidden;
+    background: #f0f0f0;
+}
+.index-content ul{
+    margin-top: 15px;
+    height: 100px;
+}
+.index-content ul li{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+.index-content ul li:after{
+    content: "";
+    display: block;
+    height: 0px;
+    clear: both;
+    visibility: hidden;
+}
+.index-item-pic{
+    float: left;
+    width: 100px;
+    height:100px;
+    background: url("../img/indexquan.png")no-repeat;
+}
+.index-item-text{
+    float: left;
+    width: 180px;
+    height: 100%;
+}
+.index-item-text h3{
+    width: 100%;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.index-item-text p{
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    color: #a3a3a3;
+}
+/*index内容结束*/
+/*footer*/
+.footer-line{
+    margin-top: 40px;
+    height: 2px;
+    background: #CCCCCC;
+}
+.footer{
+    height: 60px;
+}
+.footer-info{
+    height: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    line-height: 60px;
+}
+/*footer结束*/
+/*文章正文行高22px，英文副标题24px*/
+/*公司介绍*/
+/*banner*/
+.subpage-banner{
+    position: relative;
+    margin-top: 20px;
+    height: auto;
+}
+.subpage-banner-info{
+    position: absolute;
+    top: 75px;
+    left: 50%;
+    margin-left: -225px;
+    width: 450px;
+    height: 150px;
+    text-align: center;
+}
+.subpage-banner-info h3{
+    font-size: 44px;
+    font-weight: 500;
+    font-family: "微软雅黑";
+}
+.subpage-banner-info p{
+    margin-top: 20px;
+    font-size: 24px;
+    color: white;
+}
+/*banner结束*/
+/*公司简介*/
+.gsjj-wrapper{
+    margin-top: 35px;
+}
+.gsjj-title-ch{
+    font-size: 24px;
+    font-family: "楷体";
+    line-height: 42px;
+}
+.gsjj-title-en{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.gsjj-content{
+    margin-top: 32px;
+    width: 100%;
+    line-height: 22px;
+}
+.gsjj-pic-map{
+    margin-top: 100px;
+    height: auto;
+}
+.fgcs-wrapper{
+    margin-top: 150px;
+    height: auto;
+}
+.fgcs-text{
+    width: 48%;
+    height: auto;
+}
+.fgcs-pic{
+    width: 48%;
+    height:auto;
+}
+.fgcs-wrapper{
+    height: auto;
+}
+/*公司简介结束*/
+/*合作伙伴*/
+.hzhb-wrapper{
+    margin-top: 70px;
+}
+.hzhb-title{
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: 楷体;
+}
+.hzhb-pic-one{
+    margin-top: 25px;
+    width: 45%;
+    height:auto;
+}
+.hzhb-pic-two{
+    margin-top: 25px;
+    width: 55%;
+    height: auto;
+}
+/*合作伙伴结束*/
+/*公司介绍结束*/
+/*媒体特点*/
+.mtxs-wrapper{
+    margin-top: 35px;
+    text-align: center;
+}
+.mtxs-title-en{
+    font-size: 44px;
+    font-weight: 500;
+    font-family: "微软雅黑";
+}
+.mtxs-line-blue{
+    margin: 20px auto;
+    width: 50px;
+    height: 3px;
+    background: #62baea;
+}
+.mtxs-title-ch{
+    font-size: 20px;
+    font-weight: 500;
+}
+.mtxs-content{
+    margin: 55px auto;
+    line-height: 36px;
+    font-size: 20px;
+    width:  56%;
+}
+.mttd-one-bg{
+    padding-bottom: 32px;
+    background: #deedf8;
+    overflow: hidden;
+}
+.mttd-one{
+    margin-top: 65px;
+}
+.mttd-one-left{
+    width: 62%;
+    height: auto;
+}
+.mttd-one-right{
+    width: 34%;
+    height: auto;
+}
+.mttd-title-pic{
+    margin-top: 38px;
+}
+.mttd-two{
+    margin-top: 40px;
+    height: auto;
+}
+.mttd-three-bg{
+    margin-top: 85px;
+    background: #deedf8;
+}
+.mttd-four{
+    margin-top: 32px;
+}
+.mttd-fiv{
+    margin-top: 82px;
+}
+.mttd-six{
+    margin-top: 80px;
+
+}
+.mttd-seven-bg{
+    margin-top: 115px;
+    background: #deedf8;
+    padding-bottom: 40px;
+}
+.mttd-eight{
+    margin-top: 38px;
+}
+.mttd-nine-bg{
+    padding: 32px 0 42px;
+    margin-top: 45px;
+    background: #deedf8;
+}
+/*媒体特点结束*/
+/*媒体布局*/
+.mtbj-wrapper{
+    margin-top: 35px;
+    text-align: center;
+}
+.mtbj-title-en{
+    font-size: 44px;
+    font-weight: 500;
+    font-family: "微软雅黑";
+}
+.mtbj-line-blue{
+    margin: 20px auto;
+    width: 50px;
+    height: 3px;
+    background: #62baea;
+}
+.mtbj-title-ch{
+    font-size: 20px;
+    font-weight: 500;
+}
+.mtbj-pic-title{
+    margin-top: 40px;
+}
+.mtbj-one{
+    margin-top: 45px;
+}
+.mtbj-one-pic{
+    width: 52%;
+    height: auto;
+}
+.mtbj-one-text{
+    width: 40%;
+    height: auto;
+}
+.mtbj-one-title{
+    color: #911e23;
+}
+.mtbj-one-title h3{
+    font-size: 50px;
+}
+.mtbj-one-title h5{
+    font-size: 50px;
+    text-align: right;
+}
+.mtbj-one-title p{
+    text-align: right;
+}
+.mtbj-one-content{
+    width: 100%;
+    text-align: left;
+    line-height: 30px;
+    font-weight: 800;
+    margin-bottom: 45px;
+}
+.mtbj-one-content span{
+    color: red;
+}
+.mtbj-two-pic{
+    width: 65%;
+    height: auto;
+}
+.mtbj-two-text{
+    width: 30%;
+    height: auto;
+}
+.mtbj-two-title{
+    color: #911e23;
+}
+.mtbj-two-title h3{
+    text-align: right;
+    font-size: 60px;
+}
+.mtbj-two-title h5{
+    font-size: 40px;
+    font-weight: 800;
+    text-align: right;
+}
+.mtbj-two-title p{
+    font-weight: bold;
+    text-align: right;
+}
+.mtbj-two-content{
+    float: right;
+    width: 70%;
+    text-align: left;
+}
+.mtbj-three{
+    margin-top: 90px;
+}
+/*媒体布局结束*/
+/*成功案例*/
+.cgal-body{
+    margin-top: 35px;
+}
+.cgal-btn{
+    width: 420px;
+    margin: 0 auto;
+}
+.cgal-btn ul li{
+    float: left;
+    width: 115px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 36px;
+}
+.cgal-btn ul li:last-child{
+    margin-right: 0;
+}
+.cgal-btn ul li.active{
+    border: 1px solid #62baea;
+}
+.cgal-btn ul li a{
+    color: #000000;
+}
+.cgal-title{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+.cgal-content{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+}
+.cgal-list{
+    margin-top: 25px;
+}
+.cgal-list li{
+    width: 100%;
+    background: #f2f2f2;
+    padding: 5px 0;
+    margin-bottom: 20px;
+}
+.cgal-list li:after{
+    content: "";
+    display: block;
+    height:0;
+    clear: both;
+    visibility: hidden;
+}
+.cgal-item-pic{
+    width: 72%;
+    height: auto;
+}
+.cgal-item-text{
+    float: left;
+    width: 28%;
+    text-align: center;
+}
+.cgal-item-text h5{
+    margin-top: 40%;
+    font-weight: 500;
+    font-size: 24px;
+}
+.cgal-item-text p{
+    font-size: 18px;
+    line-height: 28px;
+}
+.cgal-page{
+    width: 70%;
+    margin: 55px auto 0;
+}
+.cgal-page li{
+   float: left;
+    padding: 0 15px;
+    margin-right: 10px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #62baea;
+    text-align: center;
+    line-height: 40px;
+    color: #62baea;
+}
+.cgal-page li a{
+    color: #62baea;
+}
+.cgal-page li.active{
+    background: #62baea;
+}
+.cgal-page li.active a{
+    color: #ffffff;
+}
+.cgal-bottom{
+    margin-top: 55px;
+    height: 200px;
+    background: url("../img/al6.jpg")no-repeat;
+    text-align: center;
+    line-height: 200px;
+    color: #ffffff;
+    font-size: 36px;
+}
+/*成功案例结束*/
+/*新闻中心*/
+.xwzx-body{
+    margin-top: 35px;
+    border-top:1px solid #d9d9d9;
+}
+.xwzx-title-en{
+    margin-top: 20px;
+    font-size: 44px;
+    font-weight: 500;
+    font-family: "微软雅黑";
+    text-align: center;
+}
+.xwzx-line-blue{
+    margin: 20px auto;
+    width: 50px;
+    height: 3px;
+    background: #62baea;
+}
+.xwzx-title-ch{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+.xwzx-list{
+    margin-top: 40px;
+}
+.xwzx-list li{
+    float: left;
+    width: 50%;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px dashed #cccccc;
+}
+.xwzx-list li:after{
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.xwzx-item-pic{
+    width: 34%;
+    height: 130px;
+}
+.xwzx-item-text{
+    width: 60%;
+    margin-left: 3%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.xwzx-item-text h5{
+    color: #000;
+    font-size: 22px;
+    font-weight: 500;
+}
+.xwzx-item-text time{
+    color: #a9a9a9;
+    font-size: 14px;
+    line-height: 22px;
+}
+.xwzx-item-text p{
+    color: #a9a9a9;
+    font-size: 14px;
+    line-height: 22px;
+}
+.xwzx-page{
+    width: 70%;
+    margin: 55px auto 0;
+}
+.xwzx-page li{
+    float: left;
+    padding: 0 15px;
+    margin-right: 10px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #62baea;
+    text-align: center;
+    line-height: 40px;
+    color: #62baea;
+}
+.xwzx-page li a{
+    color: #62baea;
+}
+.xwzx-page li.active{
+    background: #62baea;
+}
+.xwzx-page li.active a{
+    color: #ffffff;
+}
+/*新闻中心结束*/
