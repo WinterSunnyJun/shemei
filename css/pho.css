@@ -523,6 +523,51 @@
         text-align: center;
         font-size: 12px;
     }
+    /*媒体优势*/
+    .mtys-body{
+        margin-top: 20px;
+        width: 100%;
+        padding: 0 3%;
+        box-sizing: border-box;
+    }
+    .mtys-title{
+        height: 33px;
+    }
+    .mtyy-wrapper{
+        margin-top: 20px;
+
+    }
+    .mtyy-pic{
+        margin-top: 20px;
+        height: 161px;
+    }
+    .mtyy-line{
+        margin-top: 10px;
+        height: 3px;
+    }
+    .mtyy-text p{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .mtsk-wrapper{
+        margin-top: 20px;
+    }
+    .mtsk-pic{
+        float: none;
+        width: 100%;
+        height: 322px;
+    }
+    .mtsk-text{
+        float: none;
+        width: 100%;
+    }
+    .mtsk-text p{
+        margin-top: 0;
+    }
+    .mtfy{
+        margin-top: 20px;
+        height: 175px;
+    }
 }
 @media only screen and (min-width: 769px) {
     .pho-nav-wrapper{

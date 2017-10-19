@@ -9,6 +9,7 @@
     height: 66px;
 }
 .nav li{
+    position: relative;
     float: left;
     width: 120px;
     text-align: center;
@@ -28,6 +29,25 @@
     border-top: 2px solid #5abef0;
 }
 .nav li.active a{
+    color: #5abef0;
+}
+.nav-down{
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 66px;
+    width: 100%;
+    z-index: 10;
+    background: #ffffff;
+}
+.nav-down li{
+    width: 100%;
+    height: 66px;
+}
+.nav li:nth-child(3):hover > .nav-down{
+    display: block;
+}
+.nav-down li a:hover{
     color: #5abef0;
 }
 .logo{
@@ -784,3 +804,50 @@
     margin: 40px auto;
 }
 /*新闻详情结束*/
+/*媒体优势*/
+.mtys-body{
+    margin-top: 40px;
+}
+.mtys-title{
+    height: 113px;
+}
+.mtyy-wrapper{
+    margin-top: 40px;
+}
+.mtyy-pic{
+    height: 550px;
+}
+.mtyy-line{
+    height: 8px;
+    background: #820311;
+    margin-top: 70px;
+}
+.mtyy-text p{
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 56px;
+}
+.mtsk-wrapper{
+    margin-top: 65px;
+}
+.mtsk-pic{
+    width: 67%;
+    height: 732px;
+}
+.mtsk-text{
+    width: 25%;
+}
+.mtsk-text p{
+    margin-top: 425px;
+    font-size: 20px;
+    text-indent: 32px;
+    line-height: 30px;
+}
+.mtsk-text p span{
+    color: #de0021;
+}
+.mtfy{
+    margin-top: 80px;
+    height: 598px;
+}
+/*媒体优势结束*/
